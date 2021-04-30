@@ -9,6 +9,8 @@ let message = document.getElementById('message'),
 // Functions
 setTimeout( () => {
     helloWorld()
+    // send a request for the version number update
+    ipcRenderer.send('vrequest')
 }, 2000)
 
 let helloWorld = () => {
