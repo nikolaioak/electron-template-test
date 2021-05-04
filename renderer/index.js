@@ -14,7 +14,7 @@ setTimeout( () => {
 }, 2000)
 
 let helloWorld = () => {
-    message.innerHTML = `Hello, ${os.userInfo().username}, are you ready to learn Electron?`
+    message.innerHTML = `Hello ${os.userInfo().username}, are you ready to learn Electron?`
     console.log('You can also display or test information here.')
 }
 
