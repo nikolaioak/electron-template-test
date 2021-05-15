@@ -30,7 +30,7 @@ module.exports = () => {
             dialog.showMessageBox({
                 type: 'info',
                 title: 'Update Available',
-                message: 'A new version of aSAP is available and will be installed.',
+                message: 'A new version of this app is available and will be installed.',
                 buttons: ['Update']
             }).then(result => {
                 let buttonIndex = result.response

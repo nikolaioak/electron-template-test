@@ -14,7 +14,10 @@
   "keywords": [
     "electron"
   ],
-  "author": "Nikolai Oakfield",
+  "author": {
+    "name": "Nikolai Oakfield",
+    "email": "nikolai.oak@gmail.com"
+  },
   "license": "UNLICENSED",
   "devDependencies": {
     "electron": "^9.2.0",
@@ -30,10 +33,11 @@
     "copyright": "none",
     "publish": {
       "provider": "generic",
-      "url": "https://oak-rh/asap"
+      "url": "http://18.224.67.26/electron-template-test"
     },
     "linux": {
-      "target": "deb"
+      "target": "AppImage",
+      "category": "Utility"
     },
     "icon": "build/icon.png"
   }
